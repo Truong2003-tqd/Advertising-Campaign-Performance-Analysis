@@ -42,13 +42,39 @@ The Revenue and Spend trends drop sharply in November 2022, leading to a sharp d
 
 ### Budget Distribution
 
-Regarding the campaign goals, the investments to each campaign type were divided closely equal across all campaign types and cities. Although, the differences in the absolute value of the key metrics such as Impression, Conversion or Revenue are noticeable, the gaps in the KPIs such as CPM, CPA and Revenue per User are small. Regarding channels, despite equal investment across the four primary platforms, Pinterest underperformed in terms of reach, customer acquisition, and profit compared to the other channels. Consequently, Pinterest’s key performance indicators—such as average CPM and CPA—were roughly 1.5 times higher than those of competing channels, whereas its ROI was over five times lower. The similar trends were witnessed across locations, demographics, goals and campaign durations. Although the findings indicate Pinterest is underperformed and inefficient in terms of customer acquisition, its Revenue per User is outperformed about twice than other 3 channels. The similar pattern is witnessed in different cities, customer demographics
+Regarding the campaign goals, the investments to each campaign type were divided closely equal across all campaign types and cities. Although, the differences in the absolute value of the key metrics such as Impression, Conversion or Revenue are noticeable, the gaps in the KPIs such as CPM, CPA and Revenue per User are small. **Regarding channels, despite equal investment across the four primary platforms, Pinterest underperformed in terms of reach, customer acquisition, and profit compared to the other channels.** Consequently, Pinterest’s key performance indicators—such as average CPM and CPA—were roughly 1.5 times higher than those of competing channels, whereas its ROI was over five times lower. The similar trends were witnessed across locations, demographics, goals and campaign durations. **Although the findings indicate Pinterest is underperformed and inefficient in terms of customer acquisition, its Revenue per User is outperformed about twice than other 3 channels. The similar pattern is witnessed in different cities, customer demographics.**
 
-### Deep Dive: Performance Analysis and Correlation between Key Metrics and KPIs
+## Deep Dive: Performance Analysis and Correlation between Key Metrics and KPIs
 
-The performance funnel indicates that the effectivess of attraction and acquisition of Food and Fashion segment are closely similar. Although the % CTR of Pinterest are 3% - 4% lower than other channels across different campaign goals, their conversion rates' differences are negligible. The findings indicates that campaigns launched on Pinterest were difficult to reach to target audience, but they were compatible to the campaigns on other platforms in terms of acquisition rate and their users might be willing to buy more products. 
+The performance funnel indicates that the effectivess of attraction and acquisition of Food and Fashion segment are closely similar. Although the % CTR of Pinterest are 3% - 4% lower than other channels across different campaign goals, their conversion rates' differences are negligible. **The findings indicates that campaigns launched on Pinterest were difficult to reach to target audience, but they were compatible to the campaigns on other platforms in terms of acquisition rate and their users might be willing to buy more products.**
 
-The scatter plots highlights the strong positive relationship between Spend and Profit for all 4 platforms. Spend also has a positive relationship with 
+### Correlation between Spend and CPM, Impression and CPM
+
+The scatter plots highlights the strong positive relationship between Spend and Profit for all 4 platforms. Spend appears to have no clear relationship with CPM when displaying the data points by Channels and Goals. However, the scatter plot displays a strange distribution matching to each spending rang when viewing the scatter plot by individual campaigns. In general, Pinterest and other 3 channels have the similar distribution but at a different magnitude of CPM. **Further, displaying the scatter plot by Impression and CPM generates the similar distribution to the plot of Spend and CPM across all 4 duration types suggesting a strong positive relationship between Spend and Impression.** There are 4 types of campaign duration and the Spend range is from $500 to $15000 indicating each duration types have a specific Spend range, therefore, filtering the chart by each duration type will show the unique characteristics of campaigns.
+
+#### 15-days campaigns
+
+The scatter plot reveals substantial CPM variability among campaigns with approximately $500 in spend. This range spans from $100 to $250 on Pinterest and $65 to $165 on other platforms, indicating inconsistent media efficiency. The dispersion reflects a lack of predictable auction behavior or optimization at low investment levels, making sub-$500 campaigns operationally risky and economically inefficient. 
+
+For campaigns with higher investment, media efficiency becomes increasingly predictable. CPM rises sharply up to approximately $125 as spend increases, then enters a moderate plateau beyond the $2,000 mark, and finally flattens after exceeding $2,500. This indicates that while CPM does increase with spend, it stabilizes at scale, suggesting more consistent cost performance for higher-budget campaigns.
+
+#### 30- and 45-days campaigns
+
+Both of these duration types demonstrate a clear strong linear negative relationship between Spend and CPM, implying a high predictability of the campaigns in terms of investment to media efficiency. **However, the difference between the minimum and maximum CPM of these campaigns are not significant with the gap of about $2 for 30-days campaigns and $1 for 45-days campaigns.**
+
+#### 60-days campaigns
+
+Spend and CPM exhibit a positive exponential relationship in 60-day campaigns. CPM remains relatively flat below the $13,000 threshold but increases sharply beyond this point, reaching $130 at $15,000 spend. **Interestingly, campaigns at the $15,000 level form a vertical line, with CPM ranging from $125 to $130. This distribution suggests that despite the general upward trend, reaching the $15,000 mark introduces a chance of achieving lower CPM.** Although the range is narrow, the $5 variation in CPM still represents a meaningful cost difference at scale.
+
+### Correlation between Spend and CTR, Impression and CTR
+
+#### 15-days campaigns
+
+The plot clearly show the data has many campaigns invested in only $500, yielding a wide and unpredictable range of click through rate (CTR) from about 15% to 27.5%. In terms of Spend to CTR, the higher spend, resulting in higher impression with a strong linear positive relationship, clearly ensure a higher number of clicks. The plot of Impression vs CTR indicates a positive exponential relationship 
+
+#### Key Takeaways
+
+To ensure predictable media efficiency, companies should allocate more than $500 per campaign to effectively anticipate return on investment. For short-term campaigns, the optimal spend range is $2,000 to $4,000, where a strong positive linear relationship between spend and impressions is most consistent. In mid-term campaigns, the effective range widens to $4,000 to $12,000, offering reliable scaling of impressions with increased investment. For long-term campaigns, the optimal efficiency zone lies between $11,500 and $13,000, maintaining the strongest linear correlation between spend and impressions. Spending beyond $15,000 establishes a guaranteed floor of impressions, while offering a strong likelihood of surpassing that baseline, making it a strategic opportunity for campaigns aiming to maximize reach at scale.
 
 
 
