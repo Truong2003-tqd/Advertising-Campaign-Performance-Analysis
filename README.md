@@ -68,13 +68,30 @@ Spend and CPM exhibit a positive exponential relationship in 60-day campaigns. C
 
 ### Correlation between Spend and CTR, Impression and CTR
 
-#### 15-days campaigns
+The plot clearly show the data has many campaigns invested in only $500, yielding wide and unpredictable ranges of click through rate (CTR): **15%-25% for Pinterest and 17% to 27% for the channels.** In terms of Spend to CTR, the higher spend, resulting in higher impression with a strong linear positive relationship, clearly ensure a higher number of clicks. **After removing the noise of the data which are campaigns with $500 invesment, the trend of CTR across all duration types become clearer.**
 
-The plot clearly show the data has many campaigns invested in only $500, yielding a wide and unpredictable range of click through rate (CTR) from about 15% to 27.5%. In terms of Spend to CTR, the higher spend, resulting in higher impression with a strong linear positive relationship, clearly ensure a higher number of clicks. The plot of Impression vs CTR indicates a positive exponential relationship 
+In the plot of Impression vs CTR, the 15-days campaigns have the steepest distribution curve, indicating higher impressions ensure a significantly higher CTR. However, the increases slow down when Pinterest's impression go beyond 10,000 and other channels' impressions go beyond 20,000, highlighting the risk of diminishing return. **It is clear that the distributions tend to flatten when the duration of campaigns increase.** 
 
-#### Key Takeaways
+### Correlation between Spend, Impression and Conversion Rate, CPA
+
+While individual campaign results appear dispersed, aggregated performance by channel and campaign goal reveals that Pinterest consistently delivers conversion rates comparable to other major platforms, even with significantly lower impression volumes. Although Pinterest campaigns generally underperform in terms of total conversions and ROI, they exhibit a notably higher revenue per conversion compared to other platforms. 
+
+For food Segment, there is a clear negative correlation between impressions and CPA, indicating improved efficiency as reach scales on Pinterest. In contrast, other platforms show a positive trend, with CPA rising alongside impressions, suggesting diminishing cost efficiency in higher-volume campaigns.
+
+For Fashion Segment, Pinterest demonstrates a moderate negative correlation between impressions and CPA for both 15-day and 45-day campaigns. **This suggests that as Pinterest campaigns gain more exposure within shorter timeframes, they tend to become more cost-efficient. In contrast, other platforms show a positive correlation, meaning that their CPA tends to increase as impression volume grows.** However, for 60-day campaigns, Pinterest exhibits a sharp increase in CPA as impressions rise. Although Market Expansion campaigns on Pinterest record the highest impression volumes, they also incur the highest CPAs. This pattern reveals a significant inefficiency in using Pinterest for acquisition-focused strategies, particularly when targeting new customers.
+
+Although the distribution of individuals campaigns is unexplainable, viewing the distribution by Channels and Goals suggest a clear insight that all goals launched by Pinterest has the compatible conversion rates to those of other channels, despite lower total impressions. 
+
+Although goals launched by Pinterest have lower ROI due to the low total impressions and total conversion, they have higher Revenue per Conversion indicating Pinterest's customer quality is better than other channels. In the Food segment, Pinterest's CPA have a negative linear relationship with Impression, while other channels' CPA tend to rise when impression increase. In the Fashion segment, the relationships are more complicated because they are different in each duration types. For 15-days and 45-days campaigns, Pinterest and other channels have moderate negative and positive relationship respectively. However, for 60-days campaigns, Pinterest's CPM increase signficantly when the impression increase. Although the Market Expansion has the highest impression, its CPA is the highest, indicating that Pinterest is very inefficient in terms of acquiring new customers.
+
+
+#### Key Takeaways and Recommendations
 
 To ensure predictable media efficiency, companies should allocate more than $500 per campaign to effectively anticipate return on investment. For short-term campaigns, the optimal spend range is $2,000 to $4,000, where a strong positive linear relationship between spend and impressions is most consistent. In mid-term campaigns, the effective range widens to $4,000 to $12,000, offering reliable scaling of impressions with increased investment. For long-term campaigns, the optimal efficiency zone lies between $11,500 and $13,000, maintaining the strongest linear correlation between spend and impressions. Spending beyond $15,000 establishes a guaranteed floor of impressions, while offering a strong likelihood of surpassing that baseline, making it a strategic opportunity for campaigns aiming to maximize reach at scale.
+
+The flattening CTR suggest the presence of audience saturation where continued exposure yields little incremental engagement. Therefore, companies should favor shorter, time-boxed campaigns (15–30 days) for maximizing engagement efficiency and acquiring more new customers, especially in Brand Awareness or Market Expansion campaigns. Longer campaigns may still serve brand visibility goals but should be optimized for reach instead of engagement rate to maximize the total conversion and profit. 
+
+The analysis of CPA indicates that Pinterest is capable of maintaining conversion efficiency, particularly in targeted or niche segments. **Further, Pinterest’s audience, while smaller, tends to convert at higher transaction values, positioning the platform as a viable channel for premium offerings or high-value products.** **The platform's strength appears to lie more in engagement and monetization of existing or high-intent audiences, rather than broad-based reach, especially in Fashion segment**
 
 
 
