@@ -92,44 +92,86 @@ While the absolute values of key performance metrics—such as Impressions, Conv
 
 ## Deep Dive: Performance Analysis and Correlation between Key Metrics and KPIs
 
+### Overall Acquisition Rate
+
 The performance funnel indicates that the effectivess of attraction and acquisition of Food and Fashion segment are closely similar. Although the % CTR of Pinterest are 3% - 4% lower than other channels across different campaign goals, their conversion rates' differences are negligible. **The findings indicates that campaigns launched on Pinterest were difficult to reach to target audience, but they were compatible to the campaigns on other platforms in terms of acquisition rate and their users might be willing to buy more products or pay higher prices.**
 
-### Correlation between Spend and CPM, Impression and CPM
 
-The scatter plots reveal a strong positive relationship between Spend and Profit across all four platforms, confirming that higher investment generally leads to greater returns. However, when plotting Spend against CPM, no consistent correlation is observed when data is segmented by Channel and Campaign Goal.
+<p align="center">
+ <img width="577" height="523" alt="image" src="https://github.com/user-attachments/assets/6effe10f-c1a1-45b1-b632-e2848e0b7eaa" />
+</p>
 
-Interestingly, when the analysis is conducted at the individual campaign level, the Spend–CPM scatter plot reveals distinct distribution bands aligned with specific spending ranges, rather than forming a continuous trend. This pattern suggests that CPM may be influenced more by campaign structure or constraints than by spend alone.
+### Correlation between Spend, Impression and Profit, CPM
 
-Across all platforms, Pinterest and the other three channels exhibit similar distribution patterns, though at different CPM magnitudes, reinforcing Pinterest’s cost inefficiency in media buying.
+The scatter plots reveal a strong positive relationship between Spend and Profit across all four platforms, confirming that higher investment generally leads to greater returns.
 
-Moreover, plotting Impressions against CPM produces a distribution nearly identical to that of Spend vs. CPM, indicating a strong positive relationship between Spend and Impressions. This reinforces the idea that higher investment translates to greater reach, but not necessarily better cost efficiency.
+<p align="center">
+ <img width="1404" height="561" alt="image" src="https://github.com/user-attachments/assets/b5cca696-cdb3-404d-ac30-aa5ba134329a" />
+</p>
+
+When plotting Spend against CPM, no consistent correlation is observed when data is segmented by Channel and Campaign Goal. However, when the analysis is conducted at the individual campaign level, the Spend–CPM scatter plot reveals distinct distribution bands aligned with specific spending ranges, rather than forming a continuous trend. This pattern suggests that CPM may be influenced more by campaign structure or constraints than by spend alone. 
+
+Across all platforms, Pinterest and the other three channels exhibit similar distribution patterns, though at different CPM magnitudes, reinforcing Pinterest’s cost inefficiency in media buying. Moreover, plotting Impressions against CPM produces a distribution nearly identical to that of Spend vs. CPM, indicating a strong positive relationship between Spend and Impressions. **This reinforces the idea that higher investment translates to greater reach, but not necessarily better cost efficiency.**
+
+<p align="center">
+<img width="1252" height="553" alt="image" src="https://github.com/user-attachments/assets/21f8a38d-ecc3-4330-9b4d-08d2415d9f43" />
+</p>
 
 Given that campaigns are grouped into four distinct duration types with Spend ranging from $500 to $15,000, each duration type tends to occupy a specific investment range. Therefore, filtering scatter plots by campaign duration reveals unique behavioral patterns, helping to better understand performance dynamics within each duration bracket.
+
 #### 15-days campaigns
 
-The scatter plot reveals substantial CPM variability among campaigns with approximately $500 in spend. This range spans from $100 to $250 on Pinterest and $65 to $165 on other platforms, indicating inconsistent media efficiency. The dispersion reflects a lack of predictable auction behavior or optimization at low investment levels, making sub-$500 campaigns operationally risky and economically inefficient. 
+The scatter plot reveals substantial CPM variability among campaigns with approximately $500 in spend. This range spans from $100 to $250 on Pinterest and $65 to $165 on other platforms, indicating inconsistent media efficiency. The dispersion reflects a lack of predictable auction behavior or optimization at low investment levels, making $500 campaigns operationally risky and economically inefficient. 
 
 For campaigns with higher investment, media efficiency becomes increasingly predictable. CPM rises sharply up to approximately $125 as spend increases, then enters a moderate plateau beyond the $2,000 mark, and finally flattens after exceeding $2,500. This indicates that while CPM does increase with spend, it stabilizes at scale, suggesting more consistent cost performance for higher-budget campaigns.
+
+<p align="center">
+<img width="664" height="583" alt="image" src="https://github.com/user-attachments/assets/62435eb1-e544-461d-abed-e7f8610ed2ed" />
+</p>
 
 #### 30- and 45-days campaigns
 
 Both of these duration types demonstrate a clear strong linear negative relationship between Spend and CPM, implying a high predictability of the campaigns in terms of investment to media efficiency. **However, the difference between the minimum and maximum CPM of these campaigns are not significant with the gap of about $2 for 30-days campaigns and $1 for 45-days campaigns.**
 
+<p align="center">
+<img width="1228" height="604" alt="image" src="https://github.com/user-attachments/assets/90cf37fb-a6d4-4fc5-a2b2-8d9e226550d6" />
+</p>
+
 #### 60-days campaigns
 
 Spend and CPM exhibit a positive exponential relationship in 60-day campaigns. CPM remains relatively flat below the $13,000 threshold but increases sharply beyond this point, reaching $130 at $15,000 spend. **Campaigns at the $15,000 level form a vertical line, with CPM ranging from $125 to $130. This distribution suggests that despite the general upward trend, reaching the $15,000 mark introduces a chance of achieving lower CPM.** Although the range is narrow, the $5 variation in CPM still represents a meaningful cost difference at scale.
 
+<p align="center">
+<img width="1095" height="656" alt="image" src="https://github.com/user-attachments/assets/cd2c95e0-4732-4f84-814f-a274f6523268" />
+</p>
+
 ### Correlation between Spend and CTR, Impression and CTR
 
-The plot clearly shows that the data has many campaigns invested in only $500, yielding wide and unpredictable ranges of click-through rate (CTR): **15%-25% for Pinterest and 17% to 27% for the channels.** In terms of Spend to CTR, the higher spend, resulting in higher impressions with a strong linear positive relationship, clearly ensures a higher number of clicks. **After removing the noise from the data, which are campaigns with a $500 investment, the trend of CTR across all duration types becomes clearer.**
+The plot clearly shows that the data has many campaigns invested in only $500, yielding wide and unpredictable ranges of click-through rate (CTR): **15%-25% for Pinterest and 17% to 27% for the channels.** In terms of Spend to CTR, the higher spend, resulting in higher impressions with a strong linear positive relationship, clearly ensures a higher number of clicks. **After removing the noise from the data, which are campaigns with a $500 investment, the trend of CTR across all duration types becomes clearer.** 
+
+<p align="center">
+<img width="1268" height="590" alt="image" src="https://github.com/user-attachments/assets/dac3f9e6-d804-43db-bd04-d6837651e7e3" />
+</p>
 
 In the plot of Impression vs CTR, the 15-day campaigns have the steepest distribution curve, indicating that higher impressions ensure a significantly higher CTR. However, the increases slow down when Pinterest's impressions go beyond 10,000 and other channels' impressions go beyond 20,000, highlighting the risk of diminishing returns. **It is clear that the distributions tend to flatten when the duration of campaigns increases.** 
+
+<p align="center">
+<img width="1225" height="607" alt="image" src="https://github.com/user-attachments/assets/b600e228-060a-42a6-b9e9-a71fdd474874" />
+</p>
 
 ### Correlation between Spend, Impression and Conversion Rate, CPA
 
 While individual campaign results appear dispersed, aggregated performance by channel and campaign goal reveals that Pinterest consistently delivers conversion rates comparable to other major platforms, even with significantly lower impression volumes. Although Pinterest campaigns generally underperform in terms of total conversions and ROI, they exhibit a notably higher revenue per conversion compared to other platforms. 
 
-For food Segment, there is a clear negative correlation between impressions and CPA, indicating improved efficiency as reach scales on Pinterest. In contrast, other platforms show a positive trend, with CPA rising alongside impressions, suggesting diminishing cost efficiency in higher-volume campaigns.
+<p align="center">
+<img width="1458" height="509" alt="image" src="https://github.com/user-attachments/assets/b891cf3a-d9bf-4a76-9e68-b4c0624b080c" />
+</p>
+
+For Food Segment, there is a clear positive correlation between impressions and CPA, indicating lower efficiency as reach scales on Pinterest and other platforms. 
+
+<p align="center">
+<img width="1159" height="809" alt="image" src="https://github.com/user-attachments/assets/5742a030-f70e-4393-9236-5461d3ecd735" />
+</p>
 
 For Fashion Segment, Pinterest demonstrates a moderate negative correlation between impressions and CPA for both 15-day and 45-day campaigns. **This suggests that as Pinterest campaigns gain more exposure within shorter timeframes, they tend to become more cost-efficient. In contrast, other platforms show a positive correlation, meaning that their CPA tends to increase as impression volume grows.** However, for 60-day campaigns, Pinterest exhibits a sharp increase in CPA as impressions rise. Although Market Expansion campaigns on Pinterest record the highest impression volumes, they also incur the highest CPAs. This pattern reveals a significant inefficiency in using Pinterest for acquisition-focused strategies, particularly when targeting new customers.
 
