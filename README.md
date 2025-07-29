@@ -2,6 +2,18 @@
 
 MarAgency is a U.S.-based advertising agency that managed over 8,000 campaigns in 2022 for 20 clients in the Food and Fashion sectors. Campaigns ran across Facebook, Instagram, Twitter, and Pinterest, targeting audiences aged 18–44 in English, Spanish, and French.
 
+# Instruction for Dashboard Usage
+
+Click [here](https://github.com/Truong2003-tqd/Advertising-Campaign-Performance-Analysis/blob/69c12c3849a98e21214eb47d01306da0c1f32b33/ads_campaign_dataset%20(original%20data%20for%20R).xlsx) to download **the original data in .xlxs format imported in R Studio for data cleaning.**
+
+Click [here](https://github.com/Truong2003-tqd/Advertising-Campaign-Performance-Analysis/blob/69c12c3849a98e21214eb47d01306da0c1f32b33/Data%20cleaning%20.R) to download **the R script and export the cleaned data.**
+
+Click [here](https://github.com/Truong2003-tqd/Advertising-Campaign-Performance-Analysis/blob/69c12c3849a98e21214eb47d01306da0c1f32b33/Advertising%20Campaign%20Performance%20Report%20-.pbix) to download **the interactive dashboard in Power BI.**
+
+Click [here](https://github.com/Truong2003-tqd/Advertising-Campaign-Performance-Analysis/blob/69c12c3849a98e21214eb47d01306da0c1f32b33/ads_campaign_dataset.csv) to download **the cleaned data in CSV format.**
+
+If you want to go through the data pre-processing process, please download the original data and the R script. **Otherwise, please only download the dashboard and the cleaned data to avoid confusion.**
+
 # Objectives
 
 The project focuses on analyzing key metrics and KPIs to assess the financial performance, cost efficiency, and acquisition effectiveness across all platforms, with the goal of identifying inefficiencies specific to each channel. The following sections dive deeper into core performance indicators to uncover underperforming areas and highlight actionable improvements.
@@ -27,6 +39,12 @@ This is the data dictionary containing the formulas of keys metrics and KPIs dis
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d792fc60-6400-4224-9f18-437360a0332e" width="600"/>
 </p>
+
+# Date Pre-processing
+
+In the original dataset, there are several duplicated campaign IDs. These duplicated campaign IDs have different starting date, companies, and other elements, indicating **the issue is more likely resulted from the error of data entry.** **Therefore, in each pair of duplicated IDs, the second ID add an increment by 1 to make the campaign ID unique.**
+
+Download the R script to see the issue and the data-preprocessing process.
 
 # Findings
 
@@ -167,7 +185,7 @@ While individual campaign results appear dispersed, aggregated performance by ch
 <img width="1401" height="500" alt="image" src="https://github.com/user-attachments/assets/8f01785e-4f2e-4632-aed8-7ac1d5a29fca" />
 </p>
 
-Conversion rate shows variable and dynamic correlations with both spend and impressions, depending on campaign duration and market segment. Because these relationships are not uniform across all scenarios, selecting the most suitable channel for a specific goal requires deeper analysis. To explore these dynamics and tailor strategies accordingly, please download the interactive dashboard [here] to uncover deeper insights.
+Conversion rate shows variable and dynamic correlations with both spend and impressions, depending on campaign duration and market segment. Because these relationships are not uniform across all scenarios, selecting the most suitable channel for a specific goal requires deeper analysis. To explore these dynamics and tailor strategies accordingly, please download the interactive dashboard to uncover deeper insights.
 
 # Key Takeaways and Recommendations
 
