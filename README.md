@@ -54,6 +54,7 @@ The Revenue and P&L by Month chart illustrates significant fluctuations in month
   <img src="https://github.com/user-attachments/assets/7dc99dc5-b224-4f4c-b6ef-50ade4fcf66f" width="500"/>
 </p>
 
+
 Upon examining campaign durations, both 30-day and 45-day campaigns show clear downturns in November. Specifically, several key cities recorded no completed 30-day campaigns, including:
 
 - No “Increase Sales” campaigns in Las Vegas
@@ -66,6 +67,7 @@ Upon examining campaign durations, both 30-day and 45-day campaigns show clear d
   <img src="https://github.com/user-attachments/assets/ce7264fe-4232-4269-9a69-df7c9e278d52" width="1100"/>
 </p>
 
+
 Additionally, across most cities, Revenue and Spend for all campaign goals declined in parallel, contributing to the drop in total profit. Similar patterns were observed across 45-day campaigns, reinforcing the conclusion that the decline in campaign volume and activity in November directly impacted profitability across both segments and multiple cities.
 
 <img width="1090" height="636" alt="image" src="https://github.com/user-attachments/assets/32c6d0fc-23c0-412e-8fe3-c414fe994ae0" />
@@ -77,13 +79,16 @@ Campaign investments were distributed relatively evenly across all campaign goal
 
 <img width="1200" height="641" alt="image" src="https://github.com/user-attachments/assets/71821fde-bdcb-48f3-9218-04503b527c58" />
 
+
 While the absolute values of key performance metrics—such as Impressions, Conversions, and Revenue—varied across campaign types and locations, the differences in efficiency metrics (CPM, CPA, and Revenue per User) remained relatively minor, suggesting consistent execution quality across segments.
 
 <img width="904" height="599" alt="image" src="https://github.com/user-attachments/assets/eed96f30-8071-44f7-b82c-73ffb2ff312c" />
 
-**However, when examining performance by channel, a clear outlier emerges. Despite receiving an investment level comparable to Facebook, Instagram, and Twitter, Pinterest significantly underperformed across core metrics—including reach, customer acquisition, and overall profitability.**
 
-On average, Pinterest’s CPM and CPA were approximately 1.5 times higher than those of other platforms, while its ROI was more than five times lower. These patterns were consistent across cities, demographic groups, campaign goals, and durations, indicating systemic inefficiency rather than isolated performance issues. However, Pinterest outperformed all other platforms in Revenue per User, delivering approximately twice the value per conversion. **This suggests that while Pinterest struggles with cost efficiency and scale, it attracts higher-value customers—a pattern observed consistently across different regions and audience segments.**
+**However, when examining performance by channel, a clear outlier emerges. Despite receiving an investment level comparable to Facebook, Instagram, and Twitter, Pinterest significantly underperformed across core metrics—including reach, customer acquisition, and overall profitability.** On average, Pinterest’s CPM and CPA were approximately 1.5 times higher than those of other platforms, while its ROI was more than five times lower. These patterns were consistent across cities, demographic groups, campaign goals, and durations, indicating systemic inefficiency rather than isolated performance issues. However, Pinterest outperformed all other platforms in Revenue per User, delivering approximately twice the value per conversion. **This suggests that while Pinterest struggles with cost efficiency and scale, it attracts higher-value customers—a pattern observed consistently across different regions and audience segments.**
+
+<img width="916" height="640" alt="image" src="https://github.com/user-attachments/assets/24d1dacc-6faa-4718-a8bb-2673b2184e14" />
+
 
 ## Deep Dive: Performance Analysis and Correlation between Key Metrics and KPIs
 
