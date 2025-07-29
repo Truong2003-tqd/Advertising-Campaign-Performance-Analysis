@@ -16,6 +16,18 @@ The data which was used to create the dashboard can be downloaded here.
 
 The data consists of 1 table with 8,074 rows, 15 fields and no data integrity issues. 
 
+The below figure shows the data model after pre-processing. 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7978d3e7-8499-4d8e-9711-4ab11526f659" width="350"/>
+</p>
+
+This is the data dictionary containing the formulas of keys metrics and KPIs displayed on the dashboard. 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d792fc60-6400-4224-9f18-437360a0332e" width="600"/>
+</p>
+
 # Findings
 
 ## Overview Findings
@@ -23,22 +35,24 @@ The data consists of 1 table with 8,074 rows, 15 fields and no data integrity is
 Although the Food segment ran fewer campaigns than Fashion (4,007 vs. 4,023), it generated higher overall profit. This was largely driven by a greater number of 60-day campaigns in the Food segment (1,029 vs. 996), which contributed to higher total investment and a stronger financial return.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3bbb44ef-6c2e-4ed1-a0b0-5dad044531d9" width="850"/>
+  <img src="https://github.com/user-attachments/assets/3bbb44ef-6c2e-4ed1-a0b0-5dad044531d9" width="900"/>
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/51845977-2fa4-462c-befe-31105973094f" width="850"/>
+  <img src="https://github.com/user-attachments/assets/51845977-2fa4-462c-befe-31105973094f" width="900"/>
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/396ef8a4-3dad-41c2-8a11-d8f5072162df" width="850"/>
+  <img src="https://github.com/user-attachments/assets/396ef8a4-3dad-41c2-8a11-d8f5072162df" width="900"/>
 </p>
 
 ## Segment Analysis
 
 ### Overall Financial Performance
 
-The Revenue and P&L by Month chart illustrates significant fluctuations in monthly Revenue and Spend between March 1, 2022, and January 31, 2023. Despite these fluctuations, monthly Profit remained relatively stable, largely due to the synchronized movements of Revenue and Spend over time.
+The Revenue and P&L by Month chart illustrates significant fluctuations in monthly Revenue and Spend between March 1, 2022, and January 31, 2023. Despite these fluctuations, monthly Profit remained relatively stable, largely due to the synchronized movements of Revenue and Spend over time. However, a notable deviation occurred in November 2022, where both Revenue and Spend dropped sharply, resulting in a significant dip in Profit. A closer analysis reveals that this decline was primarily driven by the Fashion segment, which experienced a substantial reduction in both metrics during the same period.
 
-However, a notable deviation occurred in November 2022, where both Revenue and Spend dropped sharply, resulting in a significant dip in Profit. A closer analysis reveals that this decline was primarily driven by the Fashion segment, which experienced a substantial reduction in both metrics during the same period.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7dc99dc5-b224-4f4c-b6ef-50ade4fcf66f" width="500"/>
+</p>
 
 Upon examining campaign durations, both 30-day and 45-day campaigns show clear downturns in November. Specifically, several key cities recorded no completed 30-day campaigns, including:
 
@@ -48,11 +62,24 @@ Upon examining campaign durations, both 30-day and 45-day campaigns show clear d
 
 - No “Brand Awareness” campaigns in Austin
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ce7264fe-4232-4269-9a69-df7c9e278d52" width="1100"/>
+</p>
+
 Additionally, across most cities, Revenue and Spend for all campaign goals declined in parallel, contributing to the drop in total profit. Similar patterns were observed across 45-day campaigns, reinforcing the conclusion that the decline in campaign volume and activity in November directly impacted profitability across both segments and multiple cities.
+
+<img width="1090" height="636" alt="image" src="https://github.com/user-attachments/assets/32c6d0fc-23c0-412e-8fe3-c414fe994ae0" />
+
 
 ### Budget Distribution
 
-Campaign investments were distributed relatively evenly across all campaign goals and cities, indicating a balanced approach to strategy deployment. While the absolute values of key performance metrics—such as Impressions, Conversions, and Revenue—varied across campaign types and locations, the differences in efficiency metrics (CPM, CPA, and Revenue per User) remained relatively minor, suggesting consistent execution quality across segments.
+Campaign investments were distributed relatively evenly across all campaign goals and cities, indicating a balanced approach to strategy deployment. 
+
+<img width="1200" height="641" alt="image" src="https://github.com/user-attachments/assets/71821fde-bdcb-48f3-9218-04503b527c58" />
+
+While the absolute values of key performance metrics—such as Impressions, Conversions, and Revenue—varied across campaign types and locations, the differences in efficiency metrics (CPM, CPA, and Revenue per User) remained relatively minor, suggesting consistent execution quality across segments.
+
+<img width="904" height="599" alt="image" src="https://github.com/user-attachments/assets/eed96f30-8071-44f7-b82c-73ffb2ff312c" />
 
 **However, when examining performance by channel, a clear outlier emerges. Despite receiving an investment level comparable to Facebook, Instagram, and Twitter, Pinterest significantly underperformed across core metrics—including reach, customer acquisition, and overall profitability.**
 
