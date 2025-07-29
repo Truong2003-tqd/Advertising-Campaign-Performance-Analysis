@@ -106,7 +106,7 @@ The performance funnel indicates that the effectivess of attraction and acquisit
 The scatter plots reveal a strong positive relationship between Spend and Profit across all four platforms, confirming that higher investment generally leads to greater returns.
 
 <p align="center">
- <img width="1404" height="561" alt="image" src="https://github.com/user-attachments/assets/b5cca696-cdb3-404d-ac30-aa5ba134329a" />
+ <img width="1256" height="498" alt="image" src="https://github.com/user-attachments/assets/503871bc-b674-4904-aa16-d0aa44b6e986" />
 </p>
 
 When plotting Spend against CPM, no consistent correlation is observed when data is segmented by Channel and Campaign Goal. However, when the analysis is conducted at the individual campaign level, the Spend–CPM scatter plot reveals distinct distribution bands aligned with specific spending ranges, rather than forming a continuous trend. This pattern suggests that CPM may be influenced more by campaign structure or constraints than by spend alone. 
@@ -114,7 +114,7 @@ When plotting Spend against CPM, no consistent correlation is observed when data
 Across all platforms, Pinterest and the other three channels exhibit similar distribution patterns, though at different CPM magnitudes, reinforcing Pinterest’s cost inefficiency in media buying. Moreover, plotting Impressions against CPM produces a distribution nearly identical to that of Spend vs. CPM, indicating a strong positive relationship between Spend and Impressions. **This reinforces the idea that higher investment translates to greater reach, but not necessarily better cost efficiency.**
 
 <p align="center">
-<img width="1252" height="553" alt="image" src="https://github.com/user-attachments/assets/21f8a38d-ecc3-4330-9b4d-08d2415d9f43" />
+<img width="1330" height="599" alt="image" src="https://github.com/user-attachments/assets/484adbb4-c2c9-45b8-bc13-b4c4f8b84c2d" />
 </p>
 
 Given that campaigns are grouped into four distinct duration types with Spend ranging from $500 to $15,000, each duration type tends to occupy a specific investment range. Therefore, filtering scatter plots by campaign duration reveals unique behavioral patterns, helping to better understand performance dynamics within each duration bracket.
@@ -164,32 +164,26 @@ In the plot of Impression vs CTR, the 15-day campaigns have the steepest distrib
 While individual campaign results appear dispersed, aggregated performance by channel and campaign goal reveals that Pinterest consistently delivers conversion rates comparable to other major platforms, even with significantly lower impression volumes. Although Pinterest campaigns generally underperform in terms of total conversions and ROI, they exhibit a notably higher revenue per conversion compared to other platforms. 
 
 <p align="center">
-<img width="1458" height="509" alt="image" src="https://github.com/user-attachments/assets/b891cf3a-d9bf-4a76-9e68-b4c0624b080c" />
+<img width="1401" height="500" alt="image" src="https://github.com/user-attachments/assets/8f01785e-4f2e-4632-aed8-7ac1d5a29fca" />
 </p>
 
-For Food Segment, there is a clear positive correlation between impressions and CPA, indicating lower efficiency as reach scales on Pinterest and other platforms. 
-
-<p align="center">
-<img width="1159" height="809" alt="image" src="https://github.com/user-attachments/assets/5742a030-f70e-4393-9236-5461d3ecd735" />
-</p>
-
-For Fashion Segment, Pinterest demonstrates a moderate negative correlation between impressions and CPA for both 15-day and 45-day campaigns. **This suggests that as Pinterest campaigns gain more exposure within shorter timeframes, they tend to become more cost-efficient. In contrast, other platforms show a positive correlation, meaning that their CPA tends to increase as impression volume grows.** However, for 60-day campaigns, Pinterest exhibits a sharp increase in CPA as impressions rise. Although Market Expansion campaigns on Pinterest record the highest impression volumes, they also incur the highest CPAs. This pattern reveals a significant inefficiency in using Pinterest for acquisition-focused strategies, particularly when targeting new customers.
-
-Although the distribution of individuals campaigns is unexplainable, viewing the distribution by Channels and Goals suggest a clear insight that all goals launched by Pinterest has the compatible conversion rates to those of other channels, despite lower total impressions. 
-
-Although goals launched by Pinterest have lower ROI due to the low total impressions and total conversion, they have higher Revenue per Conversion indicating Pinterest's customer quality is better than other channels. In the Food segment, Pinterest's CPA have a negative linear relationship with Impression, while other channels' CPA tend to rise when impression increase. In the Fashion segment, the relationships are more complicated because they are different in each duration types. For 15-days and 45-days campaigns, Pinterest and other channels have moderate negative and positive relationship respectively. However, for 60-days campaigns, Pinterest's CPM increase signficantly when the impression increase. Although the Market Expansion has the highest impression, its CPA is the highest, indicating that Pinterest is very inefficient in terms of acquiring new customers.
-
+Conversion rate shows variable and dynamic correlations with both spend and impressions, depending on campaign duration and market segment. Because these relationships are not uniform across all scenarios, selecting the most suitable channel for a specific goal requires deeper analysis. To explore these dynamics and tailor strategies accordingly, please download the interactive dashboard [here] to uncover deeper insights.
 
 # Key Takeaways and Recommendations
 
-- **Set a clear budget plan and expectations for each campaign duration:** To ensure predictable media efficiency, companies should allocate more than $500 per campaign to effectively anticipate return on investment. For short-term campaigns, the optimal spend range is $2,000 to $4,000, where a strong positive linear relationship between spend and impressions is most consistent. In mid-term campaigns, the effective range widens to $4,000 to $12,000, offering reliable scaling of impressions with increased investment. For long-term campaigns, the optimal efficiency zone lies between $11,500 and $13,000, maintaining the strongest linear correlation between spend and impressions. Spending beyond $15,000 establishes a guaranteed floor of impressions, while offering a strong likelihood of surpassing that baseline, making it a strategic opportunity for campaigns aiming to maximize reach at scale.
+**Set a clear budget plan and expectations for each campaign duration:** To ensure predictable media efficiency, companies should allocate more than $500 per campaign to effectively anticipate return on investment. 
+- For short-term campaigns, the optimal spend range is $2,000 to $4,000, where a strong positive linear relationship between spend and impressions is most consistent. 
+- In mid-term campaigns, the effective range widens to $4,000 to $12,000, offering reliable scaling of impressions with increased investment. 
+- For long-term campaigns, the optimal efficiency zone lies between $11,500 and $13,000, maintaining the strongest linear correlation between spend and impressions. Spending beyond $15,000 establishes a guaranteed floor of impressions, while offering a strong likelihood of surpassing that baseline, making it a strategic opportunity for campaigns aiming to maximize reach.
 
-- **Utilize specific campaign duration for each goal to maximize engagement and profit:** The flattening CTR suggest the presence of audience saturation where continued exposure yields little incremental engagement. Therefore, companies should favor shorter, time-boxed campaigns (15–30 days) for maximizing engagement efficiency and acquiring more new customers, especially in Brand Awareness or Market Expansion campaigns. Longer campaigns may still serve brand visibility goals but should be optimized for reach instead of engagement rate to maximize the total conversion and profit. 
+**Utilize specific campaign duration for each goal to maximize engagement and profit:** 
+- Shorter campaigns (15–30 days) are ideal for goals such as Brand Awareness and Market Expansion, where the priority is to capture attention quickly and drive new customer acquisition. The observed flattening of CTR at higher impression volumes suggests audience saturation, meaning prolonged exposure yields diminishing returns.
+- **Given the strong correlation between Impressions and Profit, longer-duration campaigns should be optimized for reach rather than engagement rate.** By prioritizing broader exposure, these campaigns can generate higher total conversions over time, thereby contributing to greater overall profitability.
 
-- **Select a suitable channel for each customer segment and product type:** 
-+ The analysis of CPA indicates that Pinterest is capable of maintaining conversion efficiency, particularly in targeted or niche segments. 
-+ Further, Pinterest’s audience, while smaller, tends to convert at higher transaction values, positioning the platform as a viable channel for premium offerings or high-value products.
-+ In contrast, due to the lower customers' willingness to pay and higher media efficiency, Facebook, Instagram should focus on promoting and boosting sales of current products or products with competitive prices. 
+**Select a suitable channel for each customer segment and product type:** 
+- The analysis of CPA indicates that Pinterest is capable of maintaining conversion efficiency, particularly in targeted or niche segments. 
+- Further, Pinterest’s audience, while smaller, tends to convert at higher transaction values, positioning the platform as a viable channel for premium offerings or high-value products.
+- In contrast, due to the lower customers' willingness to pay and higher media efficiency, Facebook, Instagram should focus on promoting and boosting sales of current products or products with competitive prices. 
 
 
 
