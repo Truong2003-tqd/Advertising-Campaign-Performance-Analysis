@@ -2,6 +2,7 @@
 
 MarAgency is a U.S.-based advertising agency that managed over 8,000 campaigns in 2022 for 20 clients in the Food and Fashion sectors. Campaigns ran across Facebook, Instagram, Twitter, and Pinterest, targeting audiences aged 18–44 in English, Spanish, and French.
 
+
 # Instruction for Dashboard Usage
 
 Click [here](https://github.com/Truong2003-tqd/Advertising-Campaign-Performance-Analysis/blob/69c12c3849a98e21214eb47d01306da0c1f32b33/ads_campaign_dataset%20(original%20data%20for%20R).xlsx) to download **the original data in .xlxs format imported in R Studio for data cleaning.**
@@ -26,7 +27,7 @@ The data which was used to create the dashboard can be downloaded here.
  
 # Data Structure 
 
-The data consists of 1 table with 8,074 rows, 15 fields and no data integrity issues. 
+The data consists of 1 table with 8,074 rows, 15 fields and no data integrity issues.
 
 The below figure shows the data model after pre-processing. 
 
@@ -47,6 +48,8 @@ In the original dataset, there are several duplicated campaign IDs. These duplic
 Download the R script to see the issue and the data-preprocessing process.
 
 # Findings
+
+**All metrics and KPIs are based on each campaign’s ending date, with campaigns starting between 01/01/2022 and 31/12/2022, and ending between 15/01/2022 and 01/03/2023.** 
 
 ## Overview Findings
 
