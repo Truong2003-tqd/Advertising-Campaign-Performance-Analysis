@@ -1,4 +1,4 @@
-# Project Background
+<img width="2541" height="53" alt="image" src="https://github.com/user-attachments/assets/d89282a6-64df-4cfe-a075-275040a36319" /># Project Background
 
 MarAgency is a U.S.-based advertising agency that managed over 8,000 campaigns in 2022 for 20 clients in the Food and Fashion sectors. Campaigns ran across Facebook, Instagram, Twitter, and Pinterest, targeting audiences aged 18–44 in English, Spanish, and French.
 
@@ -115,7 +115,7 @@ While the absolute values of key performance metrics—such as Impressions, Conv
 
 ### Overall Acquisition Rate
 
-The performance funnel indicates that the effectivess of attraction and acquisition of Food and Fashion segment are closely similar. Although the % CTR of Pinterest are 3% - 4% lower than other channels across different campaign goals, their conversion rates' differences are negligible. **The findings indicates that campaigns launched on Pinterest were difficult to reach to target audience, but they were compatible to the campaigns on other platforms in terms of acquisition rate and their users might be willing to buy more products or pay higher prices.**
+Although the CTR of Pinterest is 3% to 4% lower than other channels across different campaign goals, the differences in their conversion rates are negligible. **The findings indicates that campaigns launched on Pinterest were difficult to reach to target audience, but they were compatible with the campaigns on other platforms in terms of acquisition rate and their users might be willing to buy more products or pay higher prices.**
 
 
 <p align="center">
@@ -168,13 +168,13 @@ Spend and CPM exhibit a positive exponential relationship in 60-day campaigns. C
 
 ### Correlation between Spend and CTR, Impression and CTR
 
-The plot clearly shows that the data has many campaigns invested in only $500, yielding wide and unpredictable ranges of click-through rate (CTR): **15%-25% for Pinterest and 17% to 27% for the channels.** In terms of Spend to CTR, the higher spend, resulting in higher impressions with a strong linear positive relationship, clearly ensures a higher number of clicks. **After removing the noise from the data, which are campaigns with a $500 investment, the trend of CTR across all duration types becomes clearer.** 
+The plot clearly shows that the data has many campaigns invested in only $500, creating wide and unpredictable ranges of click-through rate (CTR): **15%-25% for Pinterest and 17% to 27% for the channels.** In terms of Spend to CTR, the higher spend, resulting in higher impressions with a strong linear positive relationship, clearly ensures a higher number of clicks. **After removing the noise from the data, which are campaigns with a $500 investment, the trend of CTR across all duration types becomes clearer.** 
 
 <p align="center">
 <img width="1268" height="590" alt="image" src="https://github.com/user-attachments/assets/dac3f9e6-d804-43db-bd04-d6837651e7e3" />
 </p>
 
-In the plot of Impression vs CTR, the 15-day campaigns have the steepest distribution curve, indicating that higher impressions ensure a significantly higher CTR. However, the increases slow down when Pinterest's impressions go beyond 10,000 and other channels' impressions go beyond 20,000, highlighting the risk of diminishing returns. **It is clear that the distributions tend to flatten when the duration of campaigns increases.** 
+The 15-day campaigns have the steepest distribution curve, indicating that higher spend ensures a significantly higher CTR. However, as the campaigns last longer, the CTR increment starts to slow down and flatten.
 
 <p align="center">
 <img width="1225" height="607" alt="image" src="https://github.com/user-attachments/assets/b600e228-060a-42a6-b9e9-a71fdd474874" />
@@ -202,8 +202,7 @@ Conversion rate shows variable and dynamic correlations with both spend and impr
 - **Given the strong correlation between Impressions and Profit, longer-duration campaigns should be optimized for reach rather than engagement rate.** By prioritizing broader exposure, these campaigns can generate higher total conversions over time, thereby contributing to greater overall profitability.
 
 **Select a suitable channel for each customer segment and product type:** 
-- The analysis of CPA indicates that Pinterest is capable of maintaining conversion efficiency, particularly in targeted or niche segments. 
-- Further, Pinterest’s audience, while smaller, tends to convert at higher transaction values, positioning the platform as a viable channel for premium offerings or high-value products.
+- Pinterest’s audience, while smaller, tends to convert at higher transaction values, positioning the platform as a viable channel for premium offerings or high-value products.
 - In contrast, due to the lower customers' willingness to pay and higher media efficiency, Facebook, Instagram should focus on promoting and boosting sales of current products or products with competitive prices. 
 
 
