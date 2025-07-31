@@ -1,4 +1,4 @@
-<img width="2541" height="53" alt="image" src="https://github.com/user-attachments/assets/d89282a6-64df-4cfe-a075-275040a36319" /># Project Background
+# Project Background
 
 MarAgency is a U.S.-based advertising agency that managed over 8,000 campaigns in 2022 for 20 clients in the Food and Fashion sectors. Campaigns ran across Facebook, Instagram, Twitter, and Pinterest, targeting audiences aged 18–44 in English, Spanish, and French.
 
